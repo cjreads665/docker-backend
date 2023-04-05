@@ -7,3 +7,6 @@
 So when you run the docker compose up -d command, you're telling Docker to run the containers in detached mode. This means that the containers will be running in the background and you can continue to use your terminal for other things without interruption.
 
     npx prisma generate generates a prisma client and types for all the values
+
+    docker compose exec - this runs something in a ALREADY RUNNING container whereas docker compose run creates a separate container for you
+    
