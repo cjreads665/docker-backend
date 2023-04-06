@@ -9,4 +9,5 @@ So when you run the docker compose up -d command, you're telling Docker to run t
     npx prisma generate generates a prisma client and types for all the values
 
     docker compose exec - this runs something in a ALREADY RUNNING container whereas docker compose run creates a separate container for you
+    db:migrate will run where our terminal is. instead we want to run the migrations against the containers of backend and postgres database
     
